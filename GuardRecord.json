@@ -1,0 +1,62 @@
+{
+  "sessionId": "62",
+  "dbName": "guardtest",
+  "appUserName": "NONE_SPECIFIED",
+  "time": {
+    "timstamp": 1622938765536,
+    "minOffsetFromGMT": 0,
+    "minDst": 0
+  },
+  "sessionLocator": {
+    "clientIp": "107.190.91.154",
+    "clientPort": 62,
+    "serverIp": "0.0.0.0",
+    "serverPort": 0,
+    "isIpv6": false,
+    "clientIpv6": null,
+    "serverIpv6": null
+  },
+  "accessor": {
+    "dbUser": "johnhaldeman",
+    "serverType": "MS SQL SERVER",
+    "serverOs": "NONE_SPECIFIED",
+    "clientOs": "NONE_SPECIFIED",
+    "clientHostName": "NONE_SPECIFIED",
+    "serverHostName": "ibm-gdm-uc-sqldev-1.c1wbwkkrn7x2.us-east-2.rds.amazonaws.com",
+    "commProtocol": "NONE_SPECIFIED",
+    "dbProtocol": "NONE_SPECIFIED",
+    "dbProtocolVersion": "NONE_SPECIFIED",
+    "osUser": "johnhaldeman",
+    "sourceProgram": "Microsoft SQL Server Management Studio - Query",
+    "client_mac": "NONE_SPECIFIED",
+    "serverDescription": "NONE_SPECIFIED",
+    "serviceName": "EC2AMAZ-V4CG57I",
+    "language": "MSSQL",
+    "dataType": "TEXT"
+  },
+  "data": {
+    "construct": {
+      "sentences": [
+        {
+          "verb": "NONE_SPECIFIED",
+          "objects": [
+            {
+              "name": "NONE_SPECIFIED",
+              "type": null,
+              "fields": [],
+              "schema": "NONE_SPECIFIED"
+            }
+          ],
+          "descendants": [],
+          "fields": [
+            "NONE_SPECIFIED"
+          ]
+        }
+      ],
+      "fullSql": "insert into test2 values(\u00271\u0027)",
+      "redactedSensitiveDataSql": "NONE_SPECIFIED"
+    },
+    "originalSqlCommand": "insert into test2 values(\u00271\u0027)"
+  },
+  "exception": null
+}
