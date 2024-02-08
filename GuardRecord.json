@@ -53,10 +53,10 @@
           ]
         }
       ],
-      "fullSql": "insert into test2 values(\u00271\u0027)",
+      "fullSql": "insert into test2 values('abc')",
       "redactedSensitiveDataSql": "NONE_SPECIFIED"
     },
-    "originalSqlCommand": "insert into test2 values(\u00271\u0027)"
+    "originalSqlCommand": "insert into test2 values(?)"
   },
   "exception": null
 }
